@@ -1,5 +1,6 @@
 # Description
-NABind is a novel structure-based method to predict DNA/RNA-binding residues by leveraging deep learning and template approaches. 
+NABind is a novel structure-based method to predict DNA/RNA-binding residues by leveraging deep learning and template approaches.  
+![image](img/img.png)  
 
 # Third-party software
 PSI-BLAST https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/  
@@ -10,6 +11,11 @@ NW-align https://zhanggroup.org/NW-align/
 CD-HIT https://github.com/weizhongli/cdhit/releases  
 DSSP https://swift.cmbi.umcn.nl/gv/dssp/DSSP_5.html  
 NACCESS http://www.bioinf.manchester.ac.uk/naccess/  
+
+# Database requirement
+UniRef90 https://www.uniprot.org/help/downloads  
+Uniclust30 https://uniclust.mmseqs.com/  
+Manually created template library pass
 
 # Important python packages
 Numpy  
@@ -23,10 +29,12 @@ DGL
 GraphRicciCurvature  
 
 # Usage
-## 1. Configuration
+## 1. Download pre-trained models
+The pre-trained models can be found at pass
+## 2. Configuration
 Download and install the third-party software listed above.  
 Change the paths of these softwares and related databases at config/config.json
-## 2. Prediction
+## 3. Prediction
 Run the following command:  
 
     python predict.py --pdb ./demo/6chv_D.pdb --outdir ./demo/ --type DNA --structure native
@@ -34,5 +42,6 @@ Run the following command:
 Type -h for help information:
 
     python predict.py -h
-   
-   
+    
+# Citation
+pass  
