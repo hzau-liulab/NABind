@@ -30,7 +30,7 @@ GraphRicciCurvature
 
 # Usage
 ## 1. Download pre-trained models
-The pre-trained models can be found at pass
+The pre-trained models can be found at https://drive.google.com/drive/folders/1TOp5xAqd5Wf_RpubCyrhouU_sX4FXLov?usp=sharing  
 ## 2. Configuration
 Download and install the third-party software listed above.  
 Change the paths of these softwares and related databases at config/config.json
