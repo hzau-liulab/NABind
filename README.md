@@ -15,7 +15,7 @@ NACCESS http://www.bioinf.manchester.ac.uk/naccess/
 # Database requirement
 UniRef90 https://www.uniprot.org/help/downloads  
 Uniclust30 https://uniclust.mmseqs.com/  
-Manually created template library pass
+Manually created template library [Google Drive](https://drive.google.com/file/d/1hbQjtnSdU1I8TpVpdwHGx54xWhZheoGs/view?usp=share_link) or http://liulab.hzau.edu.cn/NABind  
 
 # Important python packages
 Numpy  
@@ -30,7 +30,7 @@ GraphRicciCurvature
 
 # Usage
 ## 1. Download pre-trained models
-The pre-trained models can be found at https://drive.google.com/drive/folders/1TOp5xAqd5Wf_RpubCyrhouU_sX4FXLov?usp=sharing  
+The pre-trained models can be found at [Google Drive](https://drive.google.com/drive/folders/1TOp5xAqd5Wf_RpubCyrhouU_sX4FXLov?usp=sharing) or http://liulab.hzau.edu.cn/NABind    
 ## 2. Configuration
 Download and install the third-party software listed above.  
 Change the paths of these softwares and related databases at config/config.json
