@@ -44,4 +44,4 @@ Type -h for help information:
     python predict.py -h
     
 # Citation
-pass  
+Structure-based prediction of nucleic acid binding residues by merging deep learning- and template-based approaches. *Submitted*, 2023.
