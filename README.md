@@ -18,15 +18,15 @@ Uniclust30 https://uniclust.mmseqs.com/
 Manually created template library [Google Drive](https://drive.google.com/file/d/1hbQjtnSdU1I8TpVpdwHGx54xWhZheoGs/view?usp=share_link) or http://liulab.hzau.edu.cn/NABind  
 
 # Important python packages
-Numpy  
-Pandas  
-Biopython  
-Scipy  
-read_cdhit  
-fair-esm  
-pytorch  
-DGL  
-GraphRicciCurvature  
+Numpy  1.25.0
+Pandas  1.2.0
+Biopython  1.76
+Scipy  1.10.1
+cdhit-reader  0.1.1
+fair-esm  2.0.0
+pytorch  2.0.1
+DGL  0.9.0
+GraphRicciCurvature  0.5.3.1
 
 # Usage
 ## 1. Download pre-trained models
