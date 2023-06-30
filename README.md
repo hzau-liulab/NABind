@@ -32,8 +32,10 @@ GraphRicciCurvature  0.5.3.1
 ## 1. Download pre-trained models
 The pre-trained models can be found at [Google Drive](https://drive.google.com/drive/folders/1TOp5xAqd5Wf_RpubCyrhouU_sX4FXLov?usp=sharing) or http://liulab.hzau.edu.cn/NABind    
 ## 2. Configuration
-Download and install the third-party software listed above.  
-Change the paths of these softwares and related databases at config/config.json
+Creat NABind environment (conda env create -f environment.yaml).  
+Manually download and install the third-party software listed above.  
+Change the paths of these softwares and related databases at config/config.json  
+Activate NABind environment (conda activate NABind).  
 ## 3. Prediction
 Run the following command:  
 
