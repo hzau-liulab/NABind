@@ -395,4 +395,11 @@ def TemplateFeat(pdbdir,database,binddict,oripdb,record,ligand_database,tmscore_
         index=np.argsort(tmscorelist)[::-1] #sorted max to min
         arraylist=np.hstack([arraylist[x] for x in index])
         return arraylist
-    return feat_sort(feat)
+    
+    sorted_feat=feat_sort(feat)
+    cols=sorted_feat.shape[1]
+    if cols<120:
+        paded_cols=120-cols
+        sorted_feat=np.pad(sorted_feat,((0,0),(0,paded_cols)),mode='constant')
+    
+    return sorted_feat
