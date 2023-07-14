@@ -45,7 +45,7 @@ Type -h for help information:
 
     python predict.py -h
 ## OR use docker image
-Download image
+Download image (http://liulab.hzau.edu.cn/NABind/installation.html)
 
     docker load -i nabind_image.tar
     docker run -it -v your/uniref90_for_blast:/app/db/u90 -v your/uniclust30_for_hhblits:/app/db/u30 -v downloaded/templatedb/BioLip:/app/db/template/BioLip -v download/esm/model:/app/db/esm -v downloaded/pre-trained/model:/app/model nabindv1hzau
